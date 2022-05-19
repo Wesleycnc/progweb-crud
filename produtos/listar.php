@@ -1,3 +1,8 @@
+<?php
+require '../includes/funcoes-produto.php';
+$listaDeProdutos = lerProdutos($conexao);
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

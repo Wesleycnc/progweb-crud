@@ -40,8 +40,8 @@ $listaDeFabricantes = lerFabricantes($conexao);
             <td> <?=$fabricante["id"]?> </td>
             <td> <?=$fabricante["nome"]?> </td>
             <td>
-                <a href="atualizar.php">atualizar</a>
-                -<a href="atualizar.php">excluir</a>
+<a href="atualizar.php?id=<?=$fabricante["id"]?>">atualizar</a>
+- <a href="excluir.php?id=<?=$fabricante["id"]?>">excluir</a>
             </td>
         </tr>
 <?php }
